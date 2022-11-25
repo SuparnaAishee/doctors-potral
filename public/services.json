@@ -1,0 +1,72 @@
+[
+  {
+    "_id": 1,
+    "name": "Dentist",
+    "slots": [
+      "8.00 AM - 8.20 AM",
+      "8.20 AM - 8.40 AM",
+      "8.40 AM - 9.00 AM",
+      "9.00 AM - 9.20 AM",
+      "9.20 AM - 9.40 AM",
+      "9.40 AM - 10.00 AM"
+    ]
+  },
+
+  {
+    "_id": 2,
+    "name": "Eye specialist",
+    "slots": [
+      "8.00 AM - 8.20 AM",
+      "8.20 AM - 8.40 AM",
+      "8.40 AM - 9.00 AM",
+      "9.00 AM - 9.20 AM",
+      "9.20 AM - 9.40 AM",
+      "9.40 AM - 10.00 AM"
+    ]
+  },
+
+  {
+    "_id": 3,
+    "name": "General Surgeons",
+    "slots": [
+      "8.00 AM - 8.20 AM",
+      "8.20 AM - 8.40 AM",
+      "8.40 AM - 9.00 AM",
+      "9.00 AM - 9.20 AM",
+      "9.20 AM - 9.40 AM",
+      "9.40 AM - 10.00 AM"
+    ]
+  },
+
+  {
+    "_id": 4,
+    "name": "Neurologists",
+    "slots": [
+      "8.00 AM - 8.20 AM",
+      "8.20 AM - 8.40 AM",
+      "8.40 AM - 9.00 AM",
+      "9.00 AM - 9.20 AM",
+      "9.20 AM - 9.40 AM",
+      "9.40 AM - 10.00 AM"
+    ]
+  },
+
+  {
+    "_id": 5,
+    "name": "Nephrologist",
+    "slots": []
+  },
+
+  {
+    "_id": 6,
+    "name": "Cardiologists",
+    "slots": [
+      "8.00 AM - 8.20 AM",
+      "8.20 AM - 8.40 AM",
+      "8.40 AM - 9.00 AM",
+      "9.00 AM - 9.20 AM",
+      "9.20 AM - 9.40 AM",
+      "9.40 AM - 10.00 AM"
+    ]
+  }
+]
