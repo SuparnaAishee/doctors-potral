@@ -2,6 +2,7 @@ import React from "react";
 import doctor from "../../assets/images/doctor.png";
 import appointment from "../../assets/images/appointment.png";
 import PrimaryButton from "../shared/PrimaryButton";
+import { Link } from "react-router-dom";
 
 const makeAppointment = () => {
   return (
@@ -26,7 +27,9 @@ const makeAppointment = () => {
           check-up and routine health check-up onsite and offsite as per
           client’s convenience.
         </p>
-        <PrimaryButton>Book Now</PrimaryButton>
+        <Link to="/appointment">
+          <PrimaryButton>Book Now</PrimaryButton>
+        </Link>
       </div>
     </section>
   );

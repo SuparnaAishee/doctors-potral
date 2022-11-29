@@ -7,6 +7,7 @@ import MakeAppointment from "./MakeAppointment";
 import Testimonials from "./Testimonials";
 import ContactUs from "./ContactUs";
 import Footer from "../shared/Footer";
+
 const Home = () => {
   return (
     <div>

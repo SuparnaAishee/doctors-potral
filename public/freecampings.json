@@ -1,0 +1,29 @@
+[
+  {
+    "_id": 1,
+    "image": "https://cdni.iconscout.com/illustration/premium/thumb/online-health-checkup-3420644-2862303.png",
+    "name": "Health Camp",
+    "Date": "1 December To 3 December ",
+    "time": "  9.00 Am - 5.00 Pm",
+    "location": "Bakolia Govt High School ,Chawkbazar ,Chittagong",
+    "Details":" "
+  },
+
+  {
+    "_id": 2,
+    "image": "https://cdni.iconscout.com/illustration/premium/thumb/doctor-giving-corona-vaccination-to-girl-3611239-3055123.png",
+    "name": "Vaccination Camp",
+    "Date": "1 December To 3 December ",
+    "time": "  9.00 Am - 5.00 Pm",
+    "location": "Bakolia Govt High School ,Chawkbazar ,Chittagong"
+  },
+
+  {
+    "_id": 3,
+    "image": "https://img.freepik.com/premium-vector/vector-illustrationdoctors-are-engaged-blood-transfusionsthe-concept-voluntary-blood-donation_253334-41.jpg?w=2000",
+    "name": "Blood Donation Camp",
+    "Date": "1 December To 3 December ",
+    "time": "  9.00 Am - 5.00 Pm",
+    "location": "Bakolia Govt High School ,Chawkbazar ,Chittagong"
+  }
+]

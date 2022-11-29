@@ -2,16 +2,16 @@ import React from "react";
 
 const Service = ({ service }) => {
   return (
-    <div class="card lg:max-w-lg bg-base-100 shadow-xl">
-      <figure class="px-10 pt-10">
+    <div className="card lg:max-w-lg bg-base-100 shadow-xl">
+      <figure className="px-10 pt-10">
         <img
           src={service.img}
           alt="Shoes"
-          class="rounded-xlclass object-scale-down h-40 w-96 ..."
+          className="rounded-xlclass object-scale-down h-40 w-96 ..."
         />
       </figure>
-      <div class="card-body items-center text-center">
-        <h2 class="card-title">{service.name}</h2>
+      <div className="card-body items-center text-center">
+        <h2 className="card-title">{service.name}</h2>
         <p>If a dog chews shoes whose shoes does he choose?</p>
       </div>
     </div>

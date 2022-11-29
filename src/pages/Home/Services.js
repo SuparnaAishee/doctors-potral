@@ -7,6 +7,7 @@ import kidney from "../../assets/images/kidney.png";
 import Cardic from "../../assets/images/Cardic.png";
 import Service from "../Home/Service";
 import PrimaryButton from "../shared/PrimaryButton";
+import { Link } from "react-router-dom";
 
 const Services = () => {
   const services = [
@@ -61,7 +62,7 @@ const Services = () => {
         ))}
       </div>
       <div className="text-center pt-10">
-        <PrimaryButton> See More</PrimaryButton>
+        <Link to ="/category"><PrimaryButton > See More</PrimaryButton></Link>
       </div>
     </div>
   );

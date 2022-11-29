@@ -1,8 +1,17 @@
+import { signOut } from "firebase/auth";
 import React from "react";
+import { useAuthState } from "react-firebase-hooks/auth";
 import { Link } from "react-router-dom";
 import Logo from "../../assets/images/Logo.png";
+import auth from "../../firebase.init";
 
 const Navbar = () => {
+  const [user,loading,error] =useAuthState(auth);
+  
+const logout =()=>{
+  signOut(auth);
+}
+
   const menuItems = (
     <>
       <li>
@@ -12,11 +21,14 @@ const Navbar = () => {
         <Link to="/category">Category</Link>
       </li>
       <li>
-        <Link to="/services">Services</Link>
+        <Link to="/freecamping">FreeCamping</Link>
       </li>
+      {user && 
+
       <li>
         <Link to="/appointment">Appointment</Link>
-      </li>
+      </li> 
+      }
       <li>
         <Link to="/healthadvice">Health Advice</Link>
       </li>
@@ -29,19 +41,19 @@ const Navbar = () => {
       <li>
         <Link to="/about">About</Link>
       </li>
-      <li>
-        <Link to="/login">Login</Link>
+      <li>{user? <button class="btn btn-ghost " onClick={logout}>SignOut</button> :
+        <Link to="/login">Login</Link>}
       </li>
     </>
   );
   return (
-    <div class="navbar bg-base-100 ">
-      <div class="navbar-start">
-        <div class="dropdown">
-          <label tabIndex="0" class="btn btn-ghost lg:hidden">
+    <div className="navbar bg-base-100 ">
+      <div className="navbar-start">
+        <div className="dropdown">
+          <label tabIndex="0" className="btn btn-ghost lg:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="h-5 w-5"
+              className="h-5 w-5"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -56,15 +68,15 @@ const Navbar = () => {
           </label>
           <ul
             tabIndex="0"
-            class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+            className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
           >
             {menuItems}
           </ul>
         </div>
         <img className="w-40" src={Logo} />
       </div>
-      <div class="navbar-center hidden lg:flex">
-        <ul class="menu menu-horizontal p-0">{menuItems}</ul>
+      <div className="navbar-center hidden lg:flex">
+        <ul className="menu menu-horizontal p-0">{menuItems}</ul>
       </div>
     </div>
   );

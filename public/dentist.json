@@ -1,0 +1,86 @@
+[
+  {
+    "_id": 1,
+
+    "category": "Dentist",
+    "name": [
+      "Dr. Sadia Afroz",
+      "Oral & Dental Surgeon",
+      "BDS (DU)",
+      "PGT (Dhaka Dental College & Hospital) ",
+      "Oral & Maxillofacial Surgery",
+      "MPH [Gold Medalist]"
+    ],
+
+    "adress": "CPDL AM MAJESTA, 84, Jamal Khan Road (Above Eastern Bank Limited 2nd Floor (৩য় তলা, Chattogram 4000",
+    "Slots": "",
+    "contact": "01625254571",
+    "fees":"1000",
+    "hours": [
+      "Tuesday : 5–10PM",
+      "Wednesday:5–10PM",
+      "Thursday: 5–10PM",
+      "Friday Closed",
+      "Saturday: 5–10PM",
+      "Sunday:   5–10PM",
+      "Monday:   5–10PM"
+    ]
+  },
+
+  {
+    "_id": 1,
+
+    "category": "Dentist",
+    "name": [
+      "Dr. Sadia Afroz",
+      "Oral & Dental Surgeon",
+      "BDS (DU)",
+      "PGT (Dhaka Dental College & Hospital) ",
+      "Oral & Maxillofacial Surgery",
+      "MPH [Gold Medalist]"
+    ],
+
+    "adress": "CPDL AM MAJESTA, 84, Jamal Khan Road (Above Eastern Bank Limited 2nd Floor (৩য় তলা, Chattogram 4000",
+    "Slots": "",
+    "contact": "01625254571",
+    "fees": "1000",
+    "hours": [
+      "Tuesday : 5–10PM",
+      "Wednesday:5–10PM",
+      "Thursday: 5–10PM",
+      "Friday Closed",
+      "Saturday: 5–10PM",
+      "Sunday:   5–10PM",
+      "Monday:   5–10PM"
+    ]
+  },
+
+  {
+    "_id": 1,
+
+    "category": "Dentist",
+
+    "name": [
+      "Dr. Sadia Afroz",
+      "Oral & Dental Surgeon",
+      "BDS (DU)",
+      "PGT (Dhaka Dental College & Hospital) ",
+      "Oral & Maxillofacial Surgery",
+      "MPH [Gold Medalist]"
+    ],
+
+    "adress": "CPDL AM MAJESTA, 84, Jamal Khan Road (Above Eastern Bank Limited 2nd Floor (৩য় তলা, Chattogram 4000",
+    "Slots": "",
+    "contact": "01625254571",
+    "fees": "1000",
+    "hours": [
+      "Tuesday : 5–10PM",
+      "Wednesday:5–10PM",
+      "Thursday: 5–10PM",
+      "Friday Closed",
+      "Saturday: 5–10PM",
+      "Sunday:   5–10PM",
+      "Monday:   5–10PM"
+    ]
+  }
+]
